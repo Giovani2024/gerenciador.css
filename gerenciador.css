@@ -1,0 +1,88 @@
+corpo {
+    família de fontes : Arial , sem serifa;
+    margem :  0 ;
+    preenchimento :  0 ;
+    cor de fundo :  # f4f4f4 ;
+}
+
+cabeçalho {
+    cor de fundo :  # 007bff ;
+    cor branca ;
+    preenchimento :  20 px ;
+    alinhamento de texto : centro;
+}
+
+principal {
+    margem :  20 px ;
+}
+
+h2 {
+    cor :  # 333 ;
+}
+
+. seção de formulário , . seção de atividades {
+    cor de fundo : branco;
+    preenchimento :  20 px ;
+    margem inferior :  20 px ;
+    raio da borda :  5 px ;
+    sombra de caixa :  0  2 px  4 px  rgba ( 0 , 0 , 0 , 0,1 );
+}
+
+forma {
+    exibição : flexível;
+    flex-wrap : embrulhar;
+    lacuna :  10 px ;
+}
+
+/* Estilo básico para entradas */
+entrada [ tipo = "texto" ] {
+    largura :  100 % ; /* Largura completa para ocupar o contêiner */
+    preenchimento :  8px  12px ;​​ /* Espaçamento interno para o texto não ficar muito colado nas bordas */
+    margem :  8px  0 ;​ /* Margem para separar as entradas do outro */
+    dimensionamento de caixa : caixa de borda; /* Garantir que o preenchimento e a borda sejam incluídos na largura total */
+    borda :  1 px sólido #ccc ;​ /* Cor da borda */
+    raio da borda :  4 px ; /* Bordas circundantes */
+    cor de fundo :  # f8f8f8 ; /* Cor de fundo do input */
+    tamanho da fonte :  16 px ; /* Tamanho da fonte */
+}
+
+/* Estilo do input quando estiver em foco */
+entrada [ tipo = "texto" ] : foco {
+    cor da borda :  # 4A90E2 ; /* Muda a cor da borda para azul */
+    esboço : nenhum; /* Remove o contorno padrão do navegador */
+}
+
+ botão de formulário {
+    cor de fundo :  # 007bff ; /* Azul */
+    cor branca ; /* Texto branco */
+    preenchimento :  10 px  20 px ; /* Espaçamento interno */
+    fronteira : nenhuma; /* Sem borda */
+    raio da borda :  5 px ; /* Bordas circundantes */
+    cursor : ponteiro; /* Cursor do mouse como ponteiro */
+    tamanho da fonte :  16 px ; /* Tamanho do texto */
+    transição : cor de fundo 0,2 s ; /* Transição suave para mudança de cor */
+}
+
+# botao-enviar : hover {
+    cor de fundo :  # 0056b3 ; /* Azul mais escuro ao passar o mouse */
+}
+
+
+mesa {
+    largura :  100 % ;
+    colapso da fronteira : colapso;
+}
+
+tabela ,  th ,  td {
+    borda :  1 px sólido #ddd ;​
+}
+
+º ,  td {
+    preenchimento :  10 px ;
+    alinhamento de texto : esquerda;
+}
+
+º {
+    cor de fundo :  # 007bff ;
+    cor branca ;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPEhtml >
+< html  lang =" pt-br " >
+< cabeça >
+    < meta  charset =" UTF-8 " >
+    < meta  name =" viewport " content =" largura = largura do dispositivo, escala inicial = 1,0 " >
+    < title > Gerenciador de Atividades </ title >
+    < link  rel =" stylesheet " href =" gerenciador.css " >
+</ cabeça >
+< corpo >
+    < cabeçalho >
+        < h1 > Monitoramento e Registro de Atividades em Salas de Transmissão de Dados </ h1 >
+        < img  src =" C:\Users\Geu\Downloads\vtal.png " alt =" vtal.png " >
+    </ cabeçalho >
+    <principal>​​
+        < seção  classe =" seção de formulário " >
+            < h2 > Adicionar Informações </ h2 >
+            < form  id =" atividadeForm " >
+                < input  type =" Data " id =" atividadeDate " placeholder =" Dados " obrigatório >
+                < input  type =" time " id =" ActivityHorario " placeholder =" Hora de Entrada " obrigatório >
+                < input  type =" time " id =" ActivityHorario " placeholder =" Hora de Saída " obrigatório >
+                < input  type =" text " id =" collaboratorName " placeholder =" Nome do Colaborador " obrigatório >
+                < label  for =" cpf " > CPF: </ label >
+                < tipo de entrada  =" texto " id =" cpf " nome =" cpf "
+               espaço reservado = " 000.000.000-00 "
+               comprimento máximo = " 14 "
+               padrão =" \d{3}\.\d{3}\.\d{3}-\d{2} "
+               title =" Digite um CPF no formato: 000.000.000-00 "
+               obrigatório >
+               < input  type =" text " id =" ActivityName " placeholder =" Nome da Atividade " obrigatório >
+               </ p >
+        </ formulário >
+               < label  for =" celular " > Número de Celular: </ label >
+               < input  type =" tel " id =" celular " nome =" celular "
+               espaço reservado =" (XX) XXXXX-XXXX "
+               padrão =" \(\d{2}\) \d{5}-\d{4} "
+               title =" Digite um número de celular no formato: (XX) XXXXX-XXXX "
+               obrigatório >
+                < input  type =" text " id =" room " placeholder =" Sala de Transmissão " obrigatório >
+                < input  type =" text " id =" ActivityName " placeholder =" Empresa " obrigatório >
+                < input  type =" text " id =" collaboratorName " placeholder =" responsável pela atividade " obrigatório >
+                < input  type =" text " id =" ActivityName " placeholder =" Materiais utilizados " necessários > < br >
+                < label  for =" metragem " > Metragem de Cordões: </ label >
+        < input  type =" número " id =" metragem " nome =" metragem "
+               placeholder =" Insira a distância "
+               min =" 0,1 " passo =" 0,1 "
+               title =" Insira a distância de cordões em metros "
+               obrigatório >
+        < input  type =" text " id =" ActivityName " placeholder =" De Fila número e letra " obrigatório > < br >
+        < label  for =" bastidor " > Bastidor: </ label >
+        < input  type =" número " id =" bastidor " nome =" bastidor "
+               padrão =" [A-Za-z] " maxlength =" 1 " obrigatório >
+        <br>​​
+        < input  type =" text " id =" ActivityName " placeholder =" Para Fila número e letra " obrigatório >
+        < label  for =" bastidor " > Bastidor: </ label >
+        < input  type =" número " id =" bastidor " nome =" bastidor "
+               padrão =" [A-Za-z] " maxlength =" 1 " obrigatório > < br >
+       < cabeça >
+    < meta  charset =" UTF-8 " >
+    < meta  name =" viewport " content =" largura = largura do dispositivo, escala inicial = 1,0 " >
+    < title > Botão Azul </ title >
+    < link  rel =" stylesheet " href =" gerenciador.html " >
+</ cabeça >
+< corpo > <
+<!-- Botão de envio -->
+    < form  action =" /sua-action " método =" post " >
+        < button  type =" submit " id =" botao-enviar " > Enviar </ button >
+    </ formulário >
+
+        </ formulário >
+        </ seção >
+        < seção  class =" seção de atividades " >
+            < h2 > Atividades Registradas </ h2 >
+            < table  id =" atividadesTabela " >
+                < cabeça >
+                    <tr>​​
+                        < th > Atividade </ th >
+                        < th > Colaborador </ th >
+                        < th > Sala de Transmissão </ th >
+                    </tr>​​
+                </thead>​​
+                <corpo>​​
+                    <!-- As atividades serão inseridas aqui -->
+                </tbody>​​
+            </ tabela >
+        </ seção >
+    </ principal >
+</ corpo >
+</html>
